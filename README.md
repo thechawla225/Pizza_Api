@@ -27,9 +27,9 @@ Return Type: Json
 - Create a MongoDB database in community server by the name "newdatabase" and a sample collection "newcollection"
 - Run the following commands: 
 pip install -r requirements.txt
-- In the manage.py folder run the command:
-python manage.py makemigrations
-python manage.py migrate
+- In the manage.py folder run the commands:
+- python manage.py makemigrations
+- python manage.py migrate
 
 - Run the server by running command:
 python manage.py runserver
